@@ -1,5 +1,5 @@
 src/app/code/local/AtlanticBT/DynamicMetas                                          app/code/local/AtlanticBT/DynamicMetas
 src/app/etc/modules/*                                                               app/etc/modules/
-src/app/design/frontend/enterprise/default/layout/atlanticbt/*                      src/app/design/frontend/enterprise/default/layout/atlanticbt/*
+src/app/design/frontend/enterprise/default/layout/atlanticbt/*                      app/design/frontend/enterprise/default/layout/atlanticbt/
 src/app/design/frontend/enterprise/default/template/atlanticbt/layerednavigation    app/design/frontend/enterprise/default/template/atlanticbt/layerednavigation
 src/js/atlanticbt/layerednavigation                                                 js/atlanticbt/layerednavigation
