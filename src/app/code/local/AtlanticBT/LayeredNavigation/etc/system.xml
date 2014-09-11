@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <atlanticbt translate="label">
+            <label>Atlantic BT</label>
+            <sort_order>150</sort_order>
+        </atlanticbt>
+    </tabs>
+    <sections>
+        <atlanticbt_layerednavigation translate="label" module="atlanticbt_layerednavigation">
+            <label>Layered Navigation</label>
+            <tab>atlanticbt</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <config translate="label">
+                    <label>Layered Navigation Rules</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <filter_rules translate="label comment">
+                            <label>Filter Rules Inclusion</label>
+                            <comment>Rules for filters to display.  If code entered, the filter will only appear when the entered category is met.</comment>
+                            <frontend_model>atlanticbt_layerednavigation/adminhtml_system_config_form_field_filterrules</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </filter_rules>
+                        <filter_rules_exclusion translate="label comment">
+                            <label>Filter Rules Exclusion</label>
+                            <comment>Rules for filters to NOT display.  If code entered, the filter will not appear in the entered category.</comment>
+                            <frontend_model>atlanticbt_layerednavigation/adminhtml_system_config_form_field_filterrules</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </filter_rules_exclusion>
+                    </fields>
+                </config>
+                <display_limit translate="label">
+                    <label>Display Limit</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>110</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <validate>required-entry</validate>
+                        </active>
+                        <limit translate="label comment">
+                            <label>Limit</label>
+                            <comment>The most amount of filters you want to display at a time.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <validate>required-entry validate-number</validate>
+                        </limit>
+                        <more_text translate="label comment">
+                            <label>More Text</label>
+                            <comment>Text to be displayed for the more button</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>required-entry</validate>
+                        </more_text>
+                        <less_text translate="label comment">
+                            <label>less Text</label>
+                            <comment>Text to be displayed for the less button</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <validate>required-entry</validate>
+                        </less_text>
+                    </fields>
+                </display_limit>
+            </groups>
+        </atlanticbt_layerednavigation>
+    </sections>
+</config>

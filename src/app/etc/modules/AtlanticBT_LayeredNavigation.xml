@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AtlanticBT_LayeredNavigation>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </AtlanticBT_LayeredNavigation>
+    </modules>
+</config>

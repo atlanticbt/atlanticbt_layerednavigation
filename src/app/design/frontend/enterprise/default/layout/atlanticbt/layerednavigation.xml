@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!-- MAY NEED TO COPY AND PASTE EVERYTHING INTO LOCAL.XML -->
+    <catalog_category_layered>
+        <reference name="head">
+            <action method="addJs" ifconfig="atlanticbt_layerednavigation/display_limit/active">
+                <script>atlanticbt/layerednavigation/display-limit.js</script>
+            </action>
+        </reference>
+
+        <reference name="enterprisecatalog.leftnav">
+            <action method="setTemplate" ifconfig="atlanticbt_layerednavigation/display_limit/active">
+                <template>atlanticbt/layerednavigation/catalog/layer/view.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_layered>
+
+    <catalogsearch_result_index>
+        <reference name="head">
+            <action method="addJs" ifconfig="atlanticbt_layerednavigation/display_limit/active">
+                <script>atlanticbt/layerednavigation/display-limit.js</script>
+            </action>
+        </reference>
+
+        <reference name="enterprisesearch.leftnav">
+            <action method="setTemplate" ifconfig="atlanticbt_layerednavigation/display_limit/active">
+                <template>atlanticbt/layerednavigation/catalog/layer/view.phtml</template>
+            </action>
+        </reference>
+    </catalogsearch_result_index>
+<!-- END NEED TO COPY -->
+</layout>

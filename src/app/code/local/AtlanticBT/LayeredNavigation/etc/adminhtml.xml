@@ -1,0 +1,21 @@
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <atlanticbt_layerednavigation translate="title" module="atlanticbt_layerednavigation">
+                                        <title>Layered Navigation Rules</title>
+                                    </atlanticbt_layerednavigation>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

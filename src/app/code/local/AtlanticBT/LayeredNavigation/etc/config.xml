@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AtlanticBT_LayeredNavigation>
+            <version>1.0.0</version>
+        </AtlanticBT_LayeredNavigation>
+    </modules>
+    <global>
+        <blocks>
+            <atlanticbt_layerednavigation>
+                <class>AtlanticBT_LayeredNavigation_Block</class>
+            </atlanticbt_layerednavigation>
+        </blocks>
+        <helpers>
+            <atlanticbt_layerednavigation>
+                <class>AtlanticBT_LayeredNavigation_Helper</class>
+            </atlanticbt_layerednavigation>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <atlanticbt_layerednavigation>
+                    <file>atlanticbt/layerednavigation.xml</file>
+                </atlanticbt_layerednavigation>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <atlanticbt_layerednavigation>
+            <display_limit>
+                <active>0</active>
+                <limit>5</limit>
+                <more_text>More</more_text>
+                <less_text>Less</less_text>
+            </display_limit>
+        </atlanticbt_layerednavigation>
+    </default>
+</config>
