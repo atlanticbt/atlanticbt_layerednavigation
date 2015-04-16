@@ -1,0 +1,7 @@
+{
+    "name": "atlanticbt/mage-layerednav",
+    "type": "magento-module",
+    "description": "Magento Module - Short description of module.",
+    "keywords": ["magento", "module"],
+    "authors": [{ "name":"AtlanticBT", "email":"info@atlanticbt.com", "homepage":"http://atlanticbt.com" }]
+}
