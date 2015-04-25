@@ -1,6 +1,7 @@
 <?php
 class AtlanticBT_LayeredNavigation_Helper_Data extends Mage_Core_Helper_Abstract
 {
+    const CONFIG_PATH_CATEGORY_LINKS_ACTIVE    = 'atlanticbt_layerednavigation/category_links/active';
     const CONFIG_PATH_FILTER_RULES             = 'atlanticbt_layerednavigation/config/filter_rules';
     const CONFIG_PATH_FILTER_RULES_EXCLUSION   = 'atlanticbt_layerednavigation/config/filter_rules_exclusion';
     const CONFIG_PATH_DISPLAY_LIMIT_ACTIVE     = 'atlanticbt_layerednavigation/display_limit/active';
@@ -13,6 +14,14 @@ class AtlanticBT_LayeredNavigation_Helper_Data extends Mage_Core_Helper_Abstract
     const RULES_TYPE_EXCLUSION                 = 'exclusion';
 
     protected $_layeredNavNum = 0;
+
+    /**
+     * @return bool
+     */
+    public function isCategoryLinksEnabled()
+    {
+        return Mage::getStoreConfigFlag(self::CONFIG_PATH_CATEGORY_LINKS_ACTIVE);
+    }
 
     /**
      * gets the filter rules

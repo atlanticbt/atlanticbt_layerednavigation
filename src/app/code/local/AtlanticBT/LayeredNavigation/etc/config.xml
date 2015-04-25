@@ -16,6 +16,16 @@
                 <class>AtlanticBT_LayeredNavigation_Helper</class>
             </atlanticbt_layerednavigation>
         </helpers>
+        <models>
+            <atlanticbt_layerednavigation>
+                <class>AtlanticBT_LayeredNavigation_Model</class>
+            </atlanticbt_layerednavigation>
+            <catalog>
+                <rewrite>
+                    <layer_filter_item>AtlanticBT_LayeredNavigation_Model_Layer_Filter_Item</layer_filter_item>
+                </rewrite>
+            </catalog>
+        </models>
     </global>
 
     <frontend>
