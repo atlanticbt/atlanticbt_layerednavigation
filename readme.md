@@ -11,8 +11,7 @@ Provides rules in how to display layered navigation filters
 Requirements
 ------------
 - PHP >= 5.2.0
-- Mage_Core
-- ...
+- Magento
 
 Compatibility
 -------------
@@ -21,14 +20,13 @@ Compatibility
 Installation Instructions
 -------------------------
 1. Copy all files into your magento extension
-2. Place the __YOUR_THEME_PACKAGE__ files into the theme package that you are using for th site
+2. Place the __YOUR_THEME_PACKAGE__ files into the theme package that you are using for the site
 2. Clear the cache, logout from the admin panel and then login again.
 3. Configure and activate the extension under System - Configuration - AtlanticBT - Layered Navigation Rules.
 
 Uninstallation
 --------------
 1. Remove all extension files from your Magento installation
-2. ...
 
 Support
 -------
@@ -42,11 +40,12 @@ Developer
 ---------
 
 Wesley Jobes wesley.jobes@atlanticbt.com
+AtlanticBT (https://www.atlanticbt.com)
 
 Licence
 -------
-[OSL - Open Software Licence 3.0](http://opensource.org/licenses/osl-3.0.php)
+GPL
 
 Copyright
 ---------
-(c) 2014 AtlanticBT
+(c) 2015 AtlanticBT
