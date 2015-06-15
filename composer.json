@@ -1,7 +1,7 @@
 {
-    "name": "atlanticbt/mage-layerednav",
+    "name": "atlanticbt/layerednavigation",
     "type": "magento-module",
-    "description": "Magento Module - Short description of module.",
-    "keywords": ["magento", "module"],
-    "authors": [{ "name":"AtlanticBT", "email":"info@atlanticbt.com", "homepage":"http://atlanticbt.com" }]
+    "description": "A magento module that limits and adds filters to the left hand nav.",
+    "keywords": ["magento", "layered navigation"],
+    "authors": [{ "name":"AtlanticBT", "email":"magento@atlanticbt.com", "homepage":"http://atlanticbt.com" }]
 }
